@@ -67,9 +67,10 @@ nav li {
     margin-top: 30px;
     margin-bottom: 30px;
     background-image: url(../img/sfondo.JPG);
+    background-position: center;
     
     background-size: cover;
-    background
+    
     /**background-color: rgb(243, 222, 106);**/
 }
 
@@ -117,9 +118,13 @@ nav li {
 }
 
 .img13 {
-    width: 70%;
+    width: 100%;
+    height: 200px;
     object-fit: cover;
-    padding-left: 40px;
+    margin: auto;
+    display: block;
+    
+    
     
     
 }
