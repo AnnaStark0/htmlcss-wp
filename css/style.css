@@ -57,7 +57,6 @@ nav li {
     text-transform: uppercase;
     color: grey;
     padding-right: 7px;
-   
 }
 
 
@@ -68,12 +67,13 @@ nav li {
     margin-bottom: 30px;
     background-image: url(../img/sfondo.JPG);
     background-position: center;
-    
     background-size: cover;
     border-radius: 10px;
     
     /**background-color: rgb(243, 222, 106);**/
 }
+
+
 
 .testo {
     padding-top: 230px;
@@ -102,9 +102,7 @@ nav li {
 
 /***Sezione Principale***/
 .sezione {
-    padding-top: 20px;
-
-    
+    padding-top: 20px;   
 }
 
 /***3SEZIONI***/
@@ -126,6 +124,7 @@ nav li {
     display: block;
     border-radius: 10px;
 }
+
 
 h3 {
     padding-top: 20px;
