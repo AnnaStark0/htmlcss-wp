@@ -10,6 +10,10 @@
     margin: auto;
 }
 
+.grey {
+    color: grey;
+}
+
 
 
 /***FLOAT***/
@@ -63,6 +67,7 @@ nav li {
     margin-top: 30px;
     margin-bottom: 30px;
     background-image: url(../img/sfondo.JPG);
+    
     background-size: cover;
     background
     /**background-color: rgb(243, 222, 106);**/
@@ -95,6 +100,8 @@ nav li {
 
 /***Sezione Principale***/
 .sezione {
+    padding-top: 20px;
+
     
 }
 
@@ -107,6 +114,16 @@ nav li {
 /***Prima e Terza Sezione***/
 .se1{
     width: 20%;
+}
+
+.img13 {
+    width: 70%;
+    object-fit: cover;
+    
+}
+
+h3 {
+    padding-top: 20px;
 }
 
 /***Seconda Sezione***/
