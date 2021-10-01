@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/***FLOAT***/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/***HEADER***/
+header {
+height: 130px;
+margin-top: 20px;
+background-color: rgb(252, 104, 244);
+}
+
+
+/***JUMBOTRON***/
+.jumbotron {
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(243, 222, 106);
+}
+
+
+
+
+/***MAIN***/
+
+.maincontain {
+    background-color: rgb(34, 120, 250);
+}
+
+/***Sezione Principale***/
+.sezione {
+    
+}
+
+/***3SEZIONI***/
+.sezio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/***Prima e Terza Sezione***/
+.se1{
+    width: 20%;
+}
+
+/***Seconda Sezione***/
+.se2 {
+
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 54%;
+}
+
+
+
+/***FOOTER***/
+footer {
+    height: 70px;
+    background-color: rgb(177, 18, 240);
+    margin-top: 15px;
+}
+
+
+
+
+
+/***DEBUG***/
+
+/***Altezza Main***/
+.debug-cont {
+    height: 600px;
+}
+
+/***Altezza e Colore Sezione Principale***/
+.debug-sp {
+    height: 100px;
+    background-color: lightblue;
+}
+
+/***Altezza e Colore Prima - Seconda - Terza Sezione***/
+.debug-sez {
+    height: 450px;
+    background-color: lightblue;
+}
+
+
+
