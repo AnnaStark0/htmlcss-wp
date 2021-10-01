@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -29,15 +30,30 @@
 
 /***HEADER***/
 header {
-height: 130px;
+height: 100px;
 margin-top: 20px;
 background-color: rgb(252, 104, 244);
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
     border-right: 1px solid grey;
     padding-right: 10px;
+}
+
+nav {
+    height: 40px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    color: grey;
+    padding-right: 7px;
+   
 }
 
 
