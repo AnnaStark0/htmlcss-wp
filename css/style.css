@@ -36,7 +36,7 @@
 header {
 height: 100px;
 margin-top: 20px;
-background-color: rgb(252, 104, 244);
+/*background-color: rgb(252, 104, 244);*/
 }
 
 .logo {
@@ -78,7 +78,7 @@ nav li {
 .testo {
     padding-top: 230px;
     padding-left: 40px;
-    color: red;
+    color: white;
     
 }
 
@@ -97,7 +97,7 @@ nav li {
 /***MAIN***/
 
 .maincontain {
-    background-color: rgb(34, 120, 250);
+    /*background-color: rgb(34, 120, 250);*/
 }
 
 /***Sezione Principale***/
@@ -125,10 +125,6 @@ nav li {
     margin: auto;
     display: block;
     border-radius: 10px;
-    
-    
-    
-    
 }
 
 h3 {
@@ -149,8 +145,15 @@ h3 {
 /***FOOTER***/
 footer {
     height: 70px;
-    background-color: rgb(177, 18, 240);
+    /*background-color: rgb(177, 18, 240);*/
     margin-top: 15px;
+
+    text-align: center;
+    line-height: 70px;
+}
+
+.heart {
+    color: red;
 }
 
 
@@ -160,21 +163,21 @@ footer {
 /***DEBUG***/
 
 /***Altezza Main***/
-.debug-cont {
+/*.debug-cont {
     height: 600px;
-}
+}*/
 
 /***Altezza e Colore Sezione Principale***/
-.debug-sp {
+/*.debug-sp {
     height: 100px;
     background-color: lightblue;
-}
+}*/
 
 /***Altezza e Colore Prima - Seconda - Terza Sezione***/
-.debug-sez {
+/*.debug-sez {
     height: 450px;
     background-color: lightblue;
-}
+}*/
 
 
 
